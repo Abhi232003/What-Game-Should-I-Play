@@ -101,8 +101,8 @@ curl_setopt_array($curl, array(
   CURLOPT_POSTFIELDS =>'fields name,genres.name, cover.url, websites.url, player_perspectives.name, platforms.name; where genres = '.$genre.' & platforms = '.$platform.'  & player_perspectives = '.$player_perspective.'; limit 500;
 ',
   CURLOPT_HTTPHEADER => array(
-    'Client-ID: d5pn8hhy8spnuooweh4q87wnj28hee',
-    'Authorization: Bearer pu5tls71lyjy0a9phsbe1vcyo11yqp',
+    'Client-ID: YOUR_CLIENT_ID',
+    'Authorization: Bearer YOUR_AUTHORIZATION_TOKEN',
     'Content-Type: text/plain'
   ),
 ));
